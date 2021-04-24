@@ -46,32 +46,32 @@ void main()
     // retrieve data from G-buffer
     vec3 fragPos = texture2D(position, tc).rgb;
     vec3 normalVec = texture2D(normal, tc).rgb;
-    vec3 originalColor = texture2D(diffuse, tc).rgb;
+    vec3 diffuseColor = texture2D(diffuse, tc).rgb;
 		vec3 viewPos = normalize(viewMatrix[3].xyz);
 
 		//gl_FragDepth = fragPos.z;
 		gl_FragDepth = texture2D(depth, tc).r;
 
-		// ambient
-		float ambientStrength = 1.0; // maybe reduce to make the note lighted parts of the scene look darker
-		vec3 ambient = ambientStrength * specColor; // if i understand it correctly, diffuse stores the ambient color?
+		// ambient (dont need that)
+		//float ambientStrength = 1.0; // maybe reduce to make the note lighted parts of the scene look darker
+		//vec3 ambient = ambientStrength * specColor; // if i understand it correctly, diffuse stores the ambient color?
 
 		// diffuse
 		vec3 norm = normalize(normalVec);
 		// already have lightDir (dont need to calculate)
-		float diffuseStrengh = max(dot(norm, lightDir), 0.0);
+		float diffuseStrengh = max(dot(norm, -lightDir), 0.0);
 		//vec3 diffuseColor = diffuseStrengh * specColor;
-		vec3 diffuseColor = diffuseStrengh * specColor * 2; // stronger diffuse 
+		vec3 finalDiffuseColor = diffuseStrengh * diffuseColor; // stronger diffuse 
 
 		// specular
 		float specularStrengh = 0.5;
 		vec3 viewDir = normalize(viewPos - fragPos);
-		vec3 reflectDir = reflect(-lightDir, norm);
+		vec3 reflectDir = reflect(lightDir, norm);
 		float spec = pow(max(dot(viewDir, reflectDir), 0.0), shinyness);
 		vec3 specular = specularStrengh * spec * specColor;
 
 		// combine
-		vec3 result = (ambient + diffuseColor + specular) * originalColor;
+		vec3 result = finalDiffuseColor + specular;
 		col = result;
 
 

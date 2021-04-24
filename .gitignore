@@ -1,0 +1,8 @@
+*/.cache
+*/build
+*/external
+*/imgui.ini
+*/.vscode/settings.json
+a01/a01
+*/*.pdf
+*/*.zip

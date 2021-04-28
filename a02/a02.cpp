@@ -59,22 +59,27 @@ void Assignment2::render()
         {
             // TODO A04 (a), copy correct depth buffer to current fbo's depth.
             // Note the function    Assignment2::copyDepthBuffer
-
+            copyDepthBuffer(fbo[i], opaque_depth);
 
             glPolygonOffset((float)poly_offset, (float)poly_offset);
 
             // TODO A04 (a), peel layer i
 
+            glUseProgram(shader("peel"));
 
+            glActiveTexture(GL_TEXTURE0);
+            depth[(i-1)%2].bind();
+            uniform("peel", "minDepth", 0);
 
-
-
-
-
-
-
-
-
+            fbo[i].bind();
+            {
+                glClearColor(0.2f, 0.2f, 0.2f, 0.f);
+                //glClearDepth(1.0f);
+                glClear(GL_COLOR_BUFFER_BIT);
+                //glEnable(GL_DEPTH_TEST);
+                renderScene(shader("peel"), false);
+            }
+            fbo[i].unbind();
 
             poly_offset--;
         }
@@ -86,18 +91,32 @@ void Assignment2::render()
         {
             // TODO A04 (b), display a single layer (debug mode)
 
+            glClearColor(51.f/255.f, 51.f/255.f, 153.f/255.f, 1.f);
+            glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+            glUseProgram(shader("base"));
 
+            //glEnable(GL_BLEND);
+            //glDepthMask(GL_FALSE);
+            //glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+            //glDepthFunc(GL_ALWAYS);
 
+//glDepthFunc(GL_ALWAYS);
 
+            glActiveTexture(GL_TEXTURE0);
+            color[layers].bind();
+            uniform("base", "color", 0);
 
+            glActiveTexture(GL_TEXTURE1);
+            depth[layers % 2].bind();
+            uniform("base", "depth", 1);
 
+            quad.draw();
+            //glDisable(GL_BLEND);
+            //glDepthMask(GL_TRUE);
+            
+//glDepthFunc(GL_LESS);
 
-
-
-
-
-
-
+            glUseProgram(0);
 
 
         }
@@ -105,20 +124,26 @@ void Assignment2::render()
         {
             // TODO A04 (c), blending
 
+            glUseProgram(shader("blend"));
 
+            glEnable(GL_BLEND);
+            //glDepthMask(GL_FALSE);
+            glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+            glDepthFunc(GL_ALWAYS);
+            
+            for (unsigned i = layers; i > 0; --i)
+            {
+                glActiveTexture(GL_TEXTURE0);
+                color[i].bind();
+                uniform("blend", "color", 0);
 
+                quad.draw();
+            }
 
-
-
-
-
-
-
-
-
-
-
-
+            glDisable(GL_BLEND);
+            glDepthFunc(GL_LESS);
+            //glDepthMask(GL_TRUE);
+            
             glUseProgram(0);
         }
     }
@@ -192,6 +217,20 @@ void Assignment2::copyDepthBuffer(Fbo const& target, Tex const& src)
     glUseProgram(0);
 }
 
+void GLAPIENTRY MessageCallback( GLenum source,
+                    GLenum type,
+                    GLuint id,
+                    GLenum severity,
+                    GLsizei length,
+                    const GLchar* message,
+                    const void* userParam )
+{
+    if (type == 0x8251) return;
+    fprintf( stderr, "GL CALLBACK: %s type = 0x%x, severity = 0x%x, message = %s\n",
+            ( type == GL_DEBUG_TYPE_ERROR ? "** GL ERROR **" : "" ),
+            type, severity, message );
+}
+
 Assignment2::Assignment2(std::string const& resource_path)
     : Application{resource_path},
       teaPot{m_resource_path + "/data/teapot.obj"},
@@ -203,6 +242,10 @@ Assignment2::Assignment2(std::string const& resource_path)
 {
     initializeObjects();
     initializeShaderPrograms();
+
+    // During init, enable debug output
+    glEnable              ( GL_DEBUG_OUTPUT );
+    glDebugMessageCallback( MessageCallback, 0 );
 }
 
 // load shader programs
@@ -212,6 +255,8 @@ void Assignment2::initializeShaderPrograms()
                                {GL_FRAGMENT_SHADER, m_resource_path + "/shader/phong.fs.glsl"}});
     initializeShader("base", {{GL_VERTEX_SHADER, m_resource_path + "/shader/quad.vs.glsl"},
                               {GL_FRAGMENT_SHADER, m_resource_path + "/shader/base.fs.glsl"}});
+    initializeShader("base_test", {{GL_VERTEX_SHADER, m_resource_path + "/shader/quad.vs.glsl"},
+                              {GL_FRAGMENT_SHADER, m_resource_path + "/shader/base_test.fs.glsl"}});
     initializeShader("blend", {{GL_VERTEX_SHADER, m_resource_path + "/shader/quad.vs.glsl"},
                                {GL_FRAGMENT_SHADER, m_resource_path + "/shader/blend.fs.glsl"}});
     initializeShader("copy", {{GL_VERTEX_SHADER, m_resource_path + "/shader/quad.vs.glsl"},

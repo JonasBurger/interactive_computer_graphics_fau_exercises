@@ -255,8 +255,6 @@ void Assignment2::initializeShaderPrograms()
                                {GL_FRAGMENT_SHADER, m_resource_path + "/shader/phong.fs.glsl"}});
     initializeShader("base", {{GL_VERTEX_SHADER, m_resource_path + "/shader/quad.vs.glsl"},
                               {GL_FRAGMENT_SHADER, m_resource_path + "/shader/base.fs.glsl"}});
-    initializeShader("base_test", {{GL_VERTEX_SHADER, m_resource_path + "/shader/quad.vs.glsl"},
-                              {GL_FRAGMENT_SHADER, m_resource_path + "/shader/base_test.fs.glsl"}});
     initializeShader("blend", {{GL_VERTEX_SHADER, m_resource_path + "/shader/quad.vs.glsl"},
                                {GL_FRAGMENT_SHADER, m_resource_path + "/shader/blend.fs.glsl"}});
     initializeShader("copy", {{GL_VERTEX_SHADER, m_resource_path + "/shader/quad.vs.glsl"},

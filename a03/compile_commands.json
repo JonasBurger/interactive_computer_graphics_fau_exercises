@@ -1,0 +1,577 @@
+[
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../ -Iexternal/glbinding/source/glbinding/include -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -isystem ../external/glio/include -g   -std=c++11 -Wall -Wconversion -Wextra -Wpedantic -Weffc++ -Wall -Wextra -Wpedantic -Wconversion -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-unused-function -std=gnu++11 -o CMakeFiles/a03.dir/a03.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/a03.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/a03.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/callbacks.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/callbacks.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/callbacks.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/AbstractFunction.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/AbstractFunction.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/AbstractFunction.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/AbstractValue.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/AbstractValue.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/AbstractValue.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_list.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_list.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_list.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/FunctionCall.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/FunctionCall.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/FunctionCall.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/ProcAddress.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/ProcAddress.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/ProcAddress.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/ContextHandle.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/ContextHandle.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/ContextHandle.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/ContextInfo.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/ContextInfo.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/ContextInfo.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Value.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Value.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Value.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Version.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Version.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Version.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Version_ValidVersions.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Version_ValidVersions.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Version_ValidVersions.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta_getStringByBitfield.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_getStringByBitfield.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_getStringByBitfield.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta_BitfieldsByString.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_BitfieldsByString.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_BitfieldsByString.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta_BooleansByString.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_BooleansByString.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_BooleansByString.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta_EnumsByString.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_EnumsByString.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_EnumsByString.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta_ExtensionsByFunctionString.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_ExtensionsByFunctionString.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_ExtensionsByFunctionString.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta_ExtensionsByString.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_ExtensionsByString.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_ExtensionsByString.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta_FunctionStringsByExtension.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_FunctionStringsByExtension.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_FunctionStringsByExtension.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta_FunctionStringsByVersion.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_FunctionStringsByVersion.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_FunctionStringsByVersion.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta_ReqVersionsByExtension.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_ReqVersionsByExtension.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_ReqVersionsByExtension.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta_StringsByBitfield.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_StringsByBitfield.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_StringsByBitfield.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta_StringsByBoolean.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_StringsByBoolean.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_StringsByBoolean.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta_StringsByEnum.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_StringsByEnum.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_StringsByEnum.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Meta_StringsByExtension.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_StringsByExtension.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Meta_StringsByExtension.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/logging.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/logging.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/logging.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/types.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/types.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/types.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions-patches.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions-patches.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions-patches.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_0.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_0.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_0.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_a.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_a.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_a.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_b.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_b.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_b.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_c.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_c.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_c.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_d.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_d.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_d.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_e.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_e.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_e.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_f.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_f.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_f.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_g.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_g.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_g.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_h.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_h.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_h.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_i.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_i.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_i.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_j.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_j.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_j.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_k.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_k.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_k.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_l.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_l.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_l.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_m.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_m.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_m.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_n.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_n.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_n.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_o.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_o.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_o.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_p.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_p.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_p.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_q.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_q.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_q.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_r.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_r.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_r.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_s.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_s.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_s.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_t.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_t.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_t.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_u.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_u.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_u.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_v.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_v.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_v.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_w.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_w.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_w.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_x.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_x.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_x.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_y.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_y.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_y.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/Binding_objects_z.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_z.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/Binding_objects_z.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_0.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_0.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_0.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_a.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_a.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_a.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_b.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_b.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_b.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_c.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_c.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_c.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_d.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_d.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_d.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_e.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_e.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_e.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_f.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_f.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_f.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_g.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_g.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_g.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_h.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_h.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_h.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_i.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_i.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_i.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_j.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_j.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_j.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_k.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_k.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_k.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_l.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_l.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_l.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_m.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_m.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_m.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_n.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_n.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_n.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_o.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_o.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_o.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_p.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_p.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_p.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_q.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_q.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_q.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_r.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_r.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_r.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_s.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_s.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_s.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_t.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_t.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_t.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_u.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_u.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_u.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_v.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_v.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_v.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_w.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_w.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_w.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_x.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_x.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_x.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_y.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_y.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_y.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -Iexternal/glbinding/source/include -I../external/glbinding-2.1.4/source/glbinding/include -Iexternal/glbinding/source/glbinding/include -g -fPIC -fvisibility=hidden -Wall -Wextra -Wunused -Wreorder -Wignored-qualifiers -Wmissing-braces -Wreturn-type -Wswitch -Wswitch-default -Wuninitialized -Wmissing-field-initializers -Wpedantic -std=gnu++11 -o external/glbinding/source/glbinding/CMakeFiles/glbinding.dir/source/gl/functions_z.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_z.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glbinding-2.1.4/source/glbinding/source/gl/functions_z.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/context.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/context.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/context.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/init.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/init.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/init.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/input.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/input.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/input.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/monitor.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/monitor.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/vulkan.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/vulkan.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/window.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/window.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/window.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/x11_init.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/x11_init.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/x11_monitor.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/x11_monitor.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/x11_window.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/x11_window.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/xkb_unicode.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/xkb_unicode.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/posix_time.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/posix_time.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/posix_thread.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/posix_thread.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/glx_context.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/glx_context.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/egl_context.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/egl_context.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/osmesa_context.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/osmesa_context.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang-11 -D_GLFW_USE_CONFIG_H -I../external/glfw-3.3.4/include -I../external/glfw-3.3.4/src -Iexternal/glfw/src -isystem ../external/glbinding-2.1.4/source/glbinding/include -g -fPIC -Wall -std=gnu99 -o external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/linux_joystick.c",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glfw-3.3.4/src/linux_joystick.c"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/application.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/application.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/application.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/helper.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/helper.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/helper.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/imgui.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/imgui_demo.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_demo.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_demo.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/imgui_draw.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_draw.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_draw.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/imgui_impl_glfw.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_impl_glfw.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/imgui_impl_opengl3.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_impl_opengl3.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/imgui_orient.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_orient.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_orient.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/imgui_tables.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_tables.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_tables.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/imgui_widgets.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_widgets.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/imgui_widgets.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/lodepng.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/lodepng.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/lodepng.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/models.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/models.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/models.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/shader_loader.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/shader_loader.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/shader_loader.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/uniform_upload.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/uniform_upload.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/uniform_upload.cpp"
+},
+{
+  "directory": "/home/jonas/development/uni/icg/exercises/a03/build",
+  "command": "/usr/bin/clang++ -DGLBINDING_STATIC_DEFINE -DSYSTEM_LINUX -I../external/glio/include -Iexternal/glbinding/source/glbinding/include -isystem ../external/glm-0.9.9.1 -isystem ../external/glbinding-2.1.4/source/glbinding/include -isystem ../external/glfw-3.3.4/include -isystem ../external/glm-0.9.9.8 -g -o external/glio/CMakeFiles/glio.dir/source/window_handler.cpp.o -c /home/jonas/development/uni/icg/exercises/a03/external/glio/source/window_handler.cpp",
+  "file": "/home/jonas/development/uni/icg/exercises/a03/external/glio/source/window_handler.cpp"
+}
+]

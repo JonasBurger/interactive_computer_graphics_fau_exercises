@@ -1,0 +1,5 @@
+p * pprojMat -> q_uv
+
+p * projMat -> p_uv
+
+p_uv * projMat' * pprojMat -> q_uv

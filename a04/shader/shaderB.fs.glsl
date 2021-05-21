@@ -17,13 +17,14 @@ void main()
     vec2 lookup_coord = N.xy;
 
     // TODO: Calculate reflection vector in _view_ space
+    vec3 camera_location_vector = normalize(-position_view_space.xyz);// vec3(0,0,-1);
+    vec3 reflection_vector_view_space = 2*dot(camera_location_vector, normal_view_space)*normal_view_space - camera_location_vector;
     // TODO: Transform reflection vector into _world_ space
-
-
-
+    vec3 reflection_vector_world_space = view_to_world * reflection_vector_view_space;
 
 
     // TODO: transform reflection vector into polar texture coordinates (see shperical_coordinates.inc.glsl)
+    lookup_coord = SphericalCoordinates(normalize(reflection_vector_world_space));
 
 
     out0 = vec4( debugUV ? vec3(lookup_coord, 0) 

@@ -28,6 +28,7 @@ void main()
     vec3 camera_location_vector = normalize(-position_view_space.xyz/position_view_space.w);// vec3(0,0,-1);
     //vec3 carama_location_vector = vec3(0,0,-1);
     vec3 reflection_vector_view_space = 2*dot(camera_location_vector, normal_view_space)*normal_view_space - camera_location_vector;
+    //vec3 reflection_vector_view_space = reflect(-camera_location_vector, normal_view_space);
     //vec3 halfway_vector_view_space = normalize(normalize(reflection_vector_view_space) + normalize(camera_location_vector));
     //vec3 reflection_vector_view_space = normal_view_space; // normal is reflection vector
     //vec3 reflection_vector_view_space = normalize(reflect(normalize(camera_location_vector), normal_view_space)); // normal is reflection vector

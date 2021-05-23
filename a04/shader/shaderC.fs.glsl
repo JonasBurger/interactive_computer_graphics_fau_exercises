@@ -59,7 +59,7 @@ void main()
 
     for(int i = 0; i < glossyRays; ++i){
         vec3 n_tangent_space = vec3(1,0,0);
-        vec2 u = vec2(random_uniform(vec2(i, i), 5), random_uniform(vec2(i, i), 6)); // parameters are kinda random
+        vec2 u = vec2(random_uniform(N.xy, i*2), random_uniform(N.xy, i*2+1)); // parameters are kinda random
         float z0 = sqrt(-2*log(u.x))*cos(2*PI*u.y);
         float z1 = sqrt(-2*log(u.x))*sin(2*PI*u.y);
         n_tangent_space.y = z0*roughness;

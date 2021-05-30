@@ -24,7 +24,10 @@ void main()
     P = viewMatrix * modelMatrix * vec4(vPosition, 1);
 
     // TODO:  a) appropriate shadow mapping transformation.
-    shadow_tc = vec4(0);
+    vec4 shadowDC = shadowProj * modelMatrix * vec4(vPosition, 1);
+    vec3 shadowNDC = shadowDC.xyz / shadowDC.w;
+    shadow_tc = vec4(shadowNDC.xy / 2 + 0.5, shadowNDC.z, 1);
+    //shadow_tc = shadowDC / shadowDC.w;
 
 
     gl_Position = projMatrix * P;

@@ -36,10 +36,10 @@ void main()
 
     vec3 light_color = vec3(1);
     // TODO: enable me.
-    // light_color = textureProj(light_shape, shadow_tc).xyz;
+    light_color = textureProj(light_shape, shadow_tc.xyz).xyz;
 
     // TODO:  a)  read shadow-map
-    float is_lit = 1.0;
+    float is_lit = texture(shadow_map, shadow_tc.xyz);
 
 
 
@@ -49,7 +49,16 @@ void main()
     // TODO:  b)  do PCF
 
 
-
+    float sampleSize = pow(pcf_kernel_size*2-1, 2);
+    float sum = 0;
+    vec2 texelSize = 1.0 / textureSize(shadow_map, 0);
+    for (int x = -pcf_kernel_size+1; x < pcf_kernel_size; x++){
+        for (int y = -pcf_kernel_size+1; y < pcf_kernel_size; y++){
+            sum += texture(shadow_map, shadow_tc.xyz + vec3(x*texelSize.x,y*texelSize.y,0)) / sampleSize; // same depth?
+            // sum += textureOffset(shadow_map, shadow_tc.xyz, ivec2(x,y)) / sampleSize; // same depth?
+        }
+    }     
+    is_lit = sum; 
 
 
 

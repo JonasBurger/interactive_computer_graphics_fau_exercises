@@ -3,6 +3,9 @@
 #include <glbinding/gl/bitfield.h>
 #include <glbinding/gl/enum.h>
 #include <glbinding/gl/functions.h>
+#include <glm/ext/matrix_transform.hpp>
+#include <glm/ext/vector_float3.hpp>
+#include <glm/gtc/type_precision.hpp>
 #include <glm/gtx/transform.hpp>
 #include <iostream>
 
@@ -24,8 +27,8 @@ void Assignment5::render()
 
     // TODO  additionally transform from clip- to texture-space
     shadowProj = getShadowVP(lightSource);
-
-
+    //shadowProj = glm::scale(shadowProj, glm::vec3(0.5f, 0.5f, 0.f));
+    //shadowProj = glm::translate(shadowProj, glm::vec3(2.f, 2.f, 1.f));
 
 
 
@@ -78,8 +81,8 @@ void Assignment5::initShadowMap()
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
         //glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP);
         //glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP);
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_BORDER); // my opengl driver rejects GL_CLAMP as parameter 
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_BORDER); // and https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glTexParameter.xhtml (GL_CLAMP is not a valid param)
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT); // my opengl driver rejects GL_CLAMP as parameter 
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT); // and https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glTexParameter.xhtml (GL_CLAMP is not a valid param)
 
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_COMPARE_MODE, GL_COMPARE_REF_TO_TEXTURE);
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_COMPARE_FUNC, GL_LEQUAL);
@@ -101,6 +104,7 @@ void Assignment5::initShadowMap()
         glDrawBuffer(GL_NONE);
 
         // TODO: a)  Attach the depth texture to the FBO depth attachment point
+        glFramebufferTexture2D(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_TEXTURE_2D, shadow_map_id, 0);
 
         // Hint: Check if everything worked well
         GLenum FBOstatus = glCheckFramebufferStatus(GL_FRAMEBUFFER);
@@ -126,8 +130,14 @@ void Assignment5::renderShadowMap(glm::fvec3 const& light_pos)
     // with different resolution, the glViewport() must be setup accordingly.
     // Hint: Do not forget to restore the original viewport and FBO afterwards!
 
+    // save viewport
+    glGetIntegerv(GL_VIEWPORT, orig_viewport);
 
+    glBindFramebuffer(GL_FRAMEBUFFER, fbo_id);
+    glViewport(0, 0, shadow_map_size.x, shadow_map_size.y);
 
+    const auto projMat = projectionMatrix();
+    const auto viewMat = viewMatrix();
 
 
     // TODO:
@@ -136,6 +146,43 @@ void Assignment5::renderShadowMap(glm::fvec3 const& light_pos)
     // (see: render() and getShadowVP(...))
     // Hint: What is Shadow-Acne and how do you usually deal with z-fights?
     // Add a new Element (e.g. Slider + variable in .hpp) to the GUI, to make your solution configurable.
+    const glm::fmat4 lightP = glm::perspective(20.0, 1.0, 1.0, 50.0);
+    const glm::fmat4 lightV = glm::lookAt(light_pos, glm::fvec3(0.0f, -4.0f, 0.0f), glm::fvec3(0.0f, 1.0f, 0.0f));
+
+
+    // copy pasted, because I couldn't find a way to reuse render()
+
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+    glUseProgram(shader("phong"));
+    uniform("phong", "pcf_kernel_size", pcf_kernel_size);
+    glActiveTexture(GL_TEXTURE0);
+    glBindTexture(GL_TEXTURE_2D, light_texture.index());
+    uniform("phong", "light_shape", 0);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+
+    glActiveTexture(GL_TEXTURE1);
+    glBindTexture(GL_TEXTURE_2D, shadow_map_id);
+    uniform("phong", "shadow_map", 1);
+
+    // set Camera and light
+    uniform("phong", "viewMatrix", lightV);
+    uniform("phong", "projMatrix", lightP);
+    uniform("phong", "shadowProj", shadowProj);
+    uniform("phong", "lightSource", light_pos);
+
+    // draw green bunny
+    uniform("phong", "color", glm::fvec3(0.3f, 0.6f, 0.2f));
+    glm::fmat4 M = glm::rotate(rotation_angle, glm::fvec3(0, 1, 0)) * glm::scale(glm::fvec3(0.2f, 0.2f, 0.2f));
+    uniform("phong", "modelMatrix", M);
+    bunny.draw();
+
+    // draw grey ground plane
+    uniform("phong", "color", glm::fvec3(0.5f, 0.5f, 0.5f));
+    uniform("phong", "modelMatrix", glm::fmat4{1.0f});
+    plane.draw();
+    // copy & paste end
 
 
 
@@ -154,11 +201,9 @@ void Assignment5::renderShadowMap(glm::fvec3 const& light_pos)
 
 
 
-
-
-
-
-
+    // cleanup
+    glViewport(orig_viewport[0], orig_viewport[1], orig_viewport[2], orig_viewport[3]);
+    glBindFramebuffer(GL_FRAMEBUFFER, 0);
 
 
     glUseProgram(0);

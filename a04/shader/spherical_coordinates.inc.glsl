@@ -3,6 +3,9 @@ uniform bool cylindricMapping;
 const float PI = 3.1415927;
 
 float angleFromVec(vec2 v){
+    //if(v.x > 0){
+    //    return atan(v.y, v.x);
+    //}
     float angleRaw = atan(abs(v.y), abs(v.x));
     if(v.x >= 0 && v.y >= 0){
         return angleRaw;
@@ -25,10 +28,10 @@ vec2 SphericalCoordinates(vec3 r)
     //vec3 i = r.zxy;
     vec3 i = vec3(r.z, r.x, r.y);
     float inclination = acos(i.z / sqrt(i.x*i.x+i.y*i.y+i.z*i.z));
-    //float azimuth = atan(i.y, i.x);
+    float azimuth = atan(i.y, i.x);
     //float azimuth = atan(i.y/ i.x); // not correct but better for debugging :D
     //float azimuth = atan(i.y/ i.x);  // previous
-    float azimuth = angleFromVec(vec2(i.x, i.y));
+    //float azimuth = angleFromVec(vec2(i.x, i.y));
      //float azimuth = atan(i.x/ i.y);
 
     vec2 lookup_coord = vec2(0);

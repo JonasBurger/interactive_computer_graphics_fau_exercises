@@ -150,54 +150,18 @@ void Assignment5::renderShadowMap(glm::fvec3 const& light_pos)
     const glm::fmat4 lightV = glm::lookAt(light_pos, glm::fvec3(0.0f, -4.0f, 0.0f), glm::fvec3(0.0f, 1.0f, 0.0f));
 
 
-    // copy pasted, because I couldn't find a way to reuse render()
-
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-    glUseProgram(shader("phong"));
-    uniform("phong", "pcf_kernel_size", pcf_kernel_size);
-    glActiveTexture(GL_TEXTURE0);
-    glBindTexture(GL_TEXTURE_2D, light_texture.index());
-    uniform("phong", "light_shape", 0);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
-
-    glActiveTexture(GL_TEXTURE1);
-    glBindTexture(GL_TEXTURE_2D, shadow_map_id);
-    uniform("phong", "shadow_map", 1);
-
-    // set Camera and light
-    uniform("phong", "viewMatrix", lightV);
-    uniform("phong", "projMatrix", lightP);
-    uniform("phong", "shadowProj", shadowProj);
-    uniform("phong", "lightSource", light_pos);
+    glUseProgram(shader("shadow"));
 
     // draw green bunny
-    uniform("phong", "color", glm::fvec3(0.3f, 0.6f, 0.2f));
     glm::fmat4 M = glm::rotate(rotation_angle, glm::fvec3(0, 1, 0)) * glm::scale(glm::fvec3(0.2f, 0.2f, 0.2f));
-    uniform("phong", "modelMatrix", M);
+    uniform("shadow", "MVP", lightP*lightV*M);
     bunny.draw();
 
     // draw grey ground plane
-    uniform("phong", "color", glm::fvec3(0.5f, 0.5f, 0.5f));
-    uniform("phong", "modelMatrix", glm::fmat4{1.0f});
+    uniform("shadow", "MVP", lightP*lightV*glm::fmat4{1.0f});
     plane.draw();
-    // copy & paste end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

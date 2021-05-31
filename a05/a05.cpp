@@ -27,8 +27,8 @@ void Assignment5::render()
 
     // TODO  additionally transform from clip- to texture-space
     shadowProj = getShadowVP(lightSource);
-    //shadowProj = glm::scale(shadowProj, glm::vec3(0.5f, 0.5f, 0.f));
-    //shadowProj = glm::translate(shadowProj, glm::vec3(2.f, 2.f, 1.f));
+    //shadowProj = glm::scale(shadowProj, glm::vec3(0.5f, 0.5f, 0.5f));
+    //shadowProj = glm::translate(shadowProj, glm::vec3(0.5f, 0.5f, 0.5f));
 
 
 

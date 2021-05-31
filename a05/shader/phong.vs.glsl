@@ -26,7 +26,7 @@ void main()
     // TODO:  a) appropriate shadow mapping transformation.
     vec4 shadowDC = shadowProj * modelMatrix * vec4(vPosition, 1);
     vec3 shadowNDC = shadowDC.xyz / shadowDC.w;
-    shadow_tc = vec4(shadowNDC.xy / 2 + 0.5, shadowNDC.z, 1);
+    shadow_tc = vec4(shadowNDC.xyz / 2 + 0.5, 1);
     //shadow_tc = shadowDC / shadowDC.w;
 
 

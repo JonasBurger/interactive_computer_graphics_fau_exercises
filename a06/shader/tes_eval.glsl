@@ -14,16 +14,9 @@ uniform mat4 projection;
 void main()
 {
     // TODO: a) interpolate position
-    vec3 pos = gl_in[1].gl_Position.xyz;
-
-
-
-
-
-
-
-
-
+    vec3 posBottom = mix(gl_in[0].gl_Position.xyz, gl_in[1].gl_Position.xyz, gl_TessCoord.x);
+    vec3 posTop = mix(gl_in[3].gl_Position.xyz, gl_in[2].gl_Position.xyz, gl_TessCoord.x);
+    vec3 pos = mix(posBottom, posTop, gl_TessCoord.y);
 
 
 

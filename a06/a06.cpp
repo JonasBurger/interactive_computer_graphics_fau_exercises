@@ -3,6 +3,7 @@
 #include <glbinding/gl/bitfield.h>
 #include <glbinding/gl/enum.h>
 #include <glbinding/gl/functions.h>
+#include <glbinding/gl/types.h>
 #include <glm/gtx/transform.hpp>
 #include <iostream>
 
@@ -84,8 +85,8 @@ void Heightmap::draw()
     glBindVertexArray(vao);
 
     // TODO A1 Setup Tessellation and call glDrawElements(...)
-
-
+    glPatchParameteri(GL_PATCH_VERTICES, 4);
+    glDrawElements(GL_PATCHES, static_cast<GLsizei>(index_data_size), GL_UNSIGNED_INT, 0); 
 
     glBindVertexArray(0);
 }

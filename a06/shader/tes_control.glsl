@@ -44,10 +44,9 @@ void main()
         if (!use_lod)
         {
             // TODO: a) set gl_TessLevel... according to tess_const
-
-
-
-
+            gl_TessLevelInner[0] = gl_TessLevelInner[1] =
+            gl_TessLevelOuter[0] = gl_TessLevelOuter[1] =
+            gl_TessLevelOuter[2] = gl_TessLevelOuter[3] = tess_const;
 
 
         }

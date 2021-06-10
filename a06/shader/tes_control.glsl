@@ -32,9 +32,14 @@ vec2 screen_space(vec3 vertex)
 float edge_lod(vec2 v0, vec2 v1)
 {
     // TODO: c) calculate the tesselation level according to edge length in pixel (scaled by tess_factor)
-    return 1;
+    return length(v0 - v1) * tess_factor;
 
 
+}
+
+vec3 ndc(vec4 v) {
+    v = projection * view * model * v;
+    return v.xyz / v.w;
 }
 
 void main()
@@ -53,28 +58,17 @@ void main()
         else
         {
             // TODO: c) calculate normalized device coordinates (v0-3) of the vertices
-            vec3 v0;
-            vec3 v1;
-            vec3 v2;
-            vec3 v3;
-
-
-
-
-
-
-
-
+            vec3 v0 = ndc(gl_in[0].gl_Position);
+            vec3 v1 = ndc(gl_in[1].gl_Position);
+            vec3 v2 = ndc(gl_in[2].gl_Position);
+            vec3 v3 = ndc(gl_in[3].gl_Position);
 
             if (offscreen(v0, v1, v2, v3))
             {
                 // TODO: c) dump quad
-
-
-
-
-
-
+                gl_TessLevelOuter[0] = 0; // kinda hacky
+                // Note: If any of the outer levels used by the abstract patch type is 0 or negative (or NaN), then the patch will be discarded by the generator, and no TES invocations for this patch will result.
+                return;
             }
             else
             {
@@ -87,10 +81,14 @@ void main()
                 // Note ssX and the edge_lod-function
 
 
+                gl_TessLevelOuter[0] = max(edge_lod(ss3, ss0), 1.f);
+                gl_TessLevelOuter[1] = max(edge_lod(ss0, ss1), 1.f);
+                gl_TessLevelOuter[2] = max(edge_lod(ss1, ss2), 1.f);
+                gl_TessLevelOuter[3] = max(edge_lod(ss2, ss3), 1.f);
 
 
-
-
+                gl_TessLevelInner[0] = round((gl_TessLevelOuter[1] + gl_TessLevelOuter[3])/2+0.5);
+                gl_TessLevelInner[1] = round((gl_TessLevelOuter[0] + gl_TessLevelOuter[2])/2+0.5);
 
 
 

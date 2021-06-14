@@ -40,15 +40,21 @@ void main()
     // TODO: b) calculate the normal of the vertex
 
     // adjust pos* from highmap too
-    posBL.y = texture(heightmap, posBL.xz).r * height_scale;
-    posBR.y = texture(heightmap, posBR.xz).r * height_scale;
-    posTL.y = texture(heightmap, posTL.xz).r * height_scale;
-    posTR.y = texture(heightmap, posTR.xz).r * height_scale;
+    ivec2 texSize = textureSize(heightmap, 0);
+    vec2 texelOffset = 1.f/vec2(texSize);
+    vec3 neighbourBL = vec3(pos.x - texelOffset.x, 0, pos.z - texelOffset.y);
+    vec3 neighbourBR = vec3(pos.x + texelOffset.x, 0, pos.z - texelOffset.y);
+    vec3 neighbourTL = vec3(pos.x - texelOffset.x, 0, pos.z + texelOffset.y);
+    vec3 neighbourTR = vec3(pos.x + texelOffset.x, 0, pos.z + texelOffset.y);
+    neighbourBL.y = texture(heightmap, neighbourBL.xz).r * height_scale;
+    neighbourBR.y = texture(heightmap, neighbourBR.xz).r * height_scale;
+    neighbourTL.y = texture(heightmap, neighbourTL.xz).r * height_scale;
+    neighbourTR.y = texture(heightmap, neighbourTR.xz).r * height_scale;
 
-    vec3 posTobl = posBL - pos;
-    vec3 posTobr = posBR - pos;
-    vec3 posTotl = posTL - pos;
-    vec3 posTotr = posTR - pos;
+    vec3 posTobl = neighbourBL - pos;
+    vec3 posTobr = neighbourBR - pos;
+    vec3 posTotl = neighbourTL - pos;
+    vec3 posTotr = neighbourTR - pos;
     //if(posTobl == vec3(0.f)) posTobl=vec3(-1, 0, -1);
     //if(posTobr == vec3(0.f)) posTobr=vec3(1, 0, -1);
     //if(posTotl == vec3(0.f)) posTotl=vec3(-1, 0, 1);
@@ -60,7 +66,7 @@ void main()
 
     // TODO: fix normal calculation
 
-    normal = vec3(0, 1, 0); 
+    //normal = vec3(0, 1, 0); 
     //U = 
     //normal = 
 
